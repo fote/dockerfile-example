@@ -1,6 +1,6 @@
 # Пример Dockerfile
 
-Чтобы собрать докер образ:
+Чтобы собрать докер образ, нужно в папке с Dockerfile выполнить:
 ```
-$ docker build
+$ docker build -t <my-docker-image-name> .
 ```
